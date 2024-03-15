@@ -1,0 +1,38 @@
+.login-form {
+    width: 100%;
+    max-width: 500px;
+    margin-top: 200px;
+
+    .login-card {
+        display: flex;
+        padding: 20px;
+
+        .login-card-header {
+            padding: 50px;
+            background-color: lightblue;
+            justify-content: center;
+            font-weight: bold;
+        }
+        .login-card-content {
+            padding: 0px;
+            margin-top: 20px;
+
+            .login-form-field {
+                width: 100%;
+            }
+        }
+        .login-card-footer {
+            display: flex;
+            justify-content: center;
+            button {
+                width: 100%;
+            }
+        }
+    }
+}
+.container {
+    display: flex;
+    justify-content: center;
+    background: lightgoldenrodyellow;
+    height: 100%;
+}
